@@ -1,0 +1,90 @@
+---
+layout: none
+---
+<html lang="zh">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Logos view</title>
+        <meta name="description" content="Logos view">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | replace:'//','/' }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
+        {% include head-icons-rel.html %}
+        <link rel="stylesheet" href="{{ "/css/logo-view.css" | prepend: site.baseurl }}">
+    </head>
+
+<body>
+    <header id="header">
+        <h1>My logos</h1>
+    </header>
+    <div id="logo-list">
+        <div id="logo-pure-1" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-pure.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-pure-2" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-pure.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-pure-3" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-pure.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-pure-4" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-pure.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-pure-gradient-1" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-grad-green.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-pure-gradient-2" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-grad-yellow.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-pure-gradient" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-grad-green-yellow.html %}
+            </div>
+            <h2 class="logo-text">Thomas's blog</h2>
+        </div>
+        <div id="logo-dual-1" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-dual.html %}
+            </div>
+            <h2 class="logo-text">Thomas's <span>blog</span></h2>
+        </div>
+        <div id="logo-dual-2" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-dual.html %}
+            </div>
+            <h2 class="logo-text">Thomas's <span>blog</span></h2>
+        </div>
+        <div id="logo-dual-3" class="logo">
+            <div class="logo-pic">
+                {% include logo/gingko-dual.html %}
+            </div>
+            <h2 class="logo-text">Thomas's <span>blog</span></h2>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>Designed by <a href="{{ site.baseurl }}/">Thomas Tian</a>.
+        <p>Nov 19th, 2016</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# site settings
+title: Master Wang's blog
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+    Master Wang's blog | 博客
+
+baseurl: /blog # the subpath of your site, e.g. /blog
+url: https://julymars.github.io/blog/ # the base hostname & protocol for your site
+
+lang: zh # the language of your site
+timezone: Asia/Beijing
+
+# navbar
+nav_lists:
+  - title: About
+    url: /blog/about/
+
+# author info
+author: Master Wang
+avata_url: 
+bio: 仅仅是个博客
+homepage_url: https://julymars.github.io/blog/about/
+
+# google analytics
+ga_tracking_id: UA-71907556-1
+# comment
+
+# leancloud vies
+
+# site github reop url
+
+
+# paginate
+paginate: 7
+paginate_path: /page:num
+
+# Basic settings
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+permalink: date
+destination: ./_site/blog
+
+#plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# server
+#server_url: "http://1.hitcounter.applinzi.com/"
+server_url: "0.0.0.0"
+debug: false
