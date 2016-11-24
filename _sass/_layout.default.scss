@@ -71,7 +71,27 @@
             margin: $spacing-unit / 2 0 $spacing-unit / 2 $spacing-unit / 2;
         }
         @include media-query($on-laptop) {
-            //display: none;
+            display: none;
+        }
+    }
+    .about-col {
+        box-sizing: border-box;
+        width: $aside-width;
+        h1 {
+            line-height: 1.4;
+            font-size: $h2-font-size;
+            color: $main-tx-clr-sub;
+            padding: 0 0 0 $spacing-unit / 3;
+            margin: 0 0 $spacing-unit / 2 (-$spacing-unit / 2);
+            border: 0 solid $right-side-h-clr;
+            border-left-width: 12px;
+        }
+        .card {
+            padding: $spacing-unit / 3 $spacing-unit / 2 $spacing-unit / 2;
+            margin: $spacing-unit / 2 0 $spacing-unit / 2 $spacing-unit / 2;
+        }
+        @include not media-query($on-laptop) {
+            display: show;
         }
     }
 }
