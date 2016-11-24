@@ -90,7 +90,7 @@
             padding: $spacing-unit / 3 $spacing-unit / 2 $spacing-unit / 2;
             margin: $spacing-unit / 2 0 $spacing-unit / 2 $spacing-unit / 2;
         }
-        @include not media-query($on-laptop) {
+        @include media-query($on-palm) {
             display: none;
         }
     }
