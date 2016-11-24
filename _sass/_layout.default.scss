@@ -91,7 +91,7 @@
             margin: $spacing-unit / 2 0 $spacing-unit / 2 $spacing-unit / 2;
         }
         @include not media-query($on-laptop) {
-            display: show;
+            display: none;
         }
     }
 }
