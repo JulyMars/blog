@@ -77,6 +77,7 @@
     .about-col {
         box-sizing: border-box;
         width: $aside-width;
+        display: none;
         h1 {
             line-height: 1.4;
             font-size: $h2-font-size;
@@ -92,9 +93,6 @@
         }
         @include media-query($on-laptop) {
             display: block;
-        }
-        @include media-query($on-palm) {
-            display: none;
         }
     }
 }
